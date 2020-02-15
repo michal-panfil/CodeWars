@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AreTheSame\AreTheSame.cs" />
+    <Compile Include="Highest_Scoring_Word\HighestScoringWord.cs" />
     <Compile Include="Human_Readable_Time\HumanReadableTime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AreTheSame\Instruction.txt" />
+    <Content Include="Highest_Scoring_Word\Instruction.txt" />
     <Content Include="Human_Readable_Time\TextFile1.txt" />
     <Content Include="WhichAreIn\Instruction.txt" />
   </ItemGroup>
