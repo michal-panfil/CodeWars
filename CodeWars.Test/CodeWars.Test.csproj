@@ -58,7 +58,9 @@
     <Compile Include="AreTheSameTest.cs" />
     <Compile Include="HighestScoringWordTest.cs" />
     <Compile Include="HumanReadableTimeTest.cs" />
+    <Compile Include="PrimesInNumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NumberOfTailingZerosOfNTest.cs" />
     <Compile Include="WhichAreInTest.cs" />
   </ItemGroup>
   <ItemGroup>

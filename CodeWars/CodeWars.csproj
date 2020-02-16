@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,6 +49,8 @@
     <Compile Include="AreTheSame\AreTheSame.cs" />
     <Compile Include="Highest_Scoring_Word\HighestScoringWord.cs" />
     <Compile Include="Human_Readable_Time\HumanReadableTime.cs" />
+    <Compile Include="Number_of_trailing_zeros_of_N\NumberOfTrailingZerosOfN.cs" />
+    <Compile Include="Primes_In_Numbers\PrimesInNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhichAreIn\WhichAreIn.cs" />
@@ -59,7 +62,10 @@
     <Content Include="AreTheSame\Instruction.txt" />
     <Content Include="Highest_Scoring_Word\Instruction.txt" />
     <Content Include="Human_Readable_Time\TextFile1.txt" />
+    <Content Include="Number_of_trailing_zeros_of_N\Instructions.txt" />
+    <Content Include="Primes_In_Numbers\Instruction.txt" />
     <Content Include="WhichAreIn\Instruction.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

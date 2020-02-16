@@ -10,11 +10,10 @@ namespace CodeWars.Highest_Scoring_Word
     {
         public static string High(string s)
         {
-            var words = s.Split(' ');
             var highestword = "";
             var highestscore = 0;
 
-            foreach(var word in words)
+            foreach(var word in s.Split(' '))
             {
                 var score = 0;
                 foreach(var c in word)
@@ -28,7 +27,6 @@ namespace CodeWars.Highest_Scoring_Word
                     highestword = word;
                 }
             }
-
             return highestword;
         }
     }
